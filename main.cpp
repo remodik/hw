@@ -37,7 +37,7 @@ int main() {
 
         freeArray(arr);
 
-        cout << "Хотите создать новый массив? (y/n): ", cin >> choice;
+        cout << "Создать новый массив? (y/n): ", cin >> choice;
     } while (choice == 'y' || choice == 'Y');
 
     cout << "Программа завершена.\n";
